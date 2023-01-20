@@ -21,7 +21,7 @@ if the pointer is nil and default value isn't provided, `From` will panic.
 // panics
 _ = ptr.From((*float32)(nil))
 
-var vv = floaat32(0.5)
+var vv = float32(0.5)
 value = ptr.From(&vv) // value = float32(0.5)
 value = ptr.From((*float32)(nil), 0.7) // value = float32(0.7)
 ```
